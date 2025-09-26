@@ -8,29 +8,32 @@
 
 ---
 
+<span style="color:red"></span>
+
+
 ## 1. Buenas Prácticas
 
 | Tema                        | Buenas prácticas                                                                 |
 |-----------------------------|----------------------------------------------------------------------------------|
-| **Mensajes de commit**      | - Usa imperativo: **Add feature**, **Fix bug** (no **Added**)                  |
+| <span style="color:red">**Mensajes de commit**      | - Usa imperativo: **Add feature**, **Fix bug** (no **Added**)</span>                  |
 |                             | - Máx. 50-72 caracteres, corto y descriptivo                                     |
 |                             | - Explica el *por qué* en el cuerpo del commit                                   |
 |                             | - Evita mensajes genéricos: **update**, **cambios**                             |
-| **Ramas (branching)**       | - Nombres descriptivos: **feature/login-ui**, **bugfix/api-timeout**           |
+| <span style="color:red">**Ramas (branching)**       | - Nombres descriptivos: **feature/login-ui**, **bugfix/api-timeout**</span>           |
 |                             | - Flujo claro: **main/master** estable, **develop** en progreso                 |
 |                             | - Ramas cortas y específicas (no acumular semanas)                              |
 |                             | - Flujos: **GitFlow** (**main + develop + feature/, release/, hotfix/**)       |
 |                             |   **GitHub Flow** (ramas cortas desde **main** + PR/MR)                         |
 |                             |   **Trunk-Based** (commits pequeños y frecuentes en **main**)                   |
-| **Commits y pushes**        | - Commits pequeños y frecuentes (un commit = un cambio lógico)                  |
+| <span style="color:red">**Commits y pushes** </span>       | - Commits pequeños y frecuentes (un commit = un cambio lógico)                  |
 |                             | - Sincroniza con **git pull --rebase** antes de **push**                        |
 |                             | - Evita **git push --force** (mejor --force-with-lease)                        |
-| **Pull Requests / MRs**     | - PR/MR con descripción clara y capturas si aplica                               |
+| <span style="color:red">**Pull Requests / MRs** </span>   | - PR/MR con descripción clara y capturas si aplica                               |
 |                             | - Pide revisión de compañeros antes de **merge**                                 |
 |                             | - Usa **squash & merge** para historial limpio                                  |
-| **Etiquetas y versiones**   | - Usa **tags** para releases: **v1.0.0**, **v2.1.3**                             |
+| <span style="color:red">**Etiquetas y versiones** </span>  | - Usa **tags** para releases: **v1.0.0**, **v2.1.3**                             |
 |                             | - Sigue **SemVer**: **MAJOR.MINOR.PATCH**                                       |
-| **Limpieza del repo**       | - Añade **.gitignore** para binarios, logs, dependencias                        |
+| <span style="color:red">**Limpieza del repo** </span>       | - Añade **.gitignore** para binarios, logs, dependencias                        |
 |                             | - Usa **git clean -f** con cuidado para limpiar basura                          |
 |                             | - Revisa **git status** siempre antes de **commit/push**                        |
 
